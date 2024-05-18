@@ -8,8 +8,7 @@ h1 {
 }
 
 .red {
-  background: linear-gradient(90deg, red 75%, green);
-  background: linear-gradient;
+  background: linear-gradient(180deg, rgb(122,74,14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
 }
 
 .green {
@@ -22,4 +21,11 @@ h1 {
 
 .container {
   background-color: rgb(255, 255, 255);
+}
+
+.sleeve{
+  width: 110px;
+  height: 25px;
+  background-color: white;
+  opacity: 0.5;
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+</head>
+<body>
+  <h1 id="title">Micky Dynamics Survey Form</h1>
+  <p id="description">Welcome to the Micky Dynamics Survey!
+
+    We appreciate your feedback to help us improve. Please take a moment to share your thoughts. Your responses are confidential.
+    
+    Thank you!</p>
+  <form id="survey-form">
+    <label for="name" id="name-label">Name<input type="text" id="name" placeholder="Who are you? Pray, tell?" required /></label> <br>
+    <label for="email" id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required /></label><br>
+    <label for="number" id="number-label">Age<input type="number" id="number" placeholder="Age" min="18" max="120" /></label><br>
+
+    <br>
+    <label for="brand_tone">What comes to mind the most when you hear the name "Micky Dynamics"?</label>
+    <select id="dropdown">
+      <option>Creativity</option>
+      <option>Innovation</option>
+      <option>Technology</option>
+      <option>Others</option>
+    </select>
+     <br>
+    <label>How would you describe the personality of Micky Dynamics?</label>
+    <input type="radio" name="personality"  value="Friendly" />Friendly 
+    <input type="radio" name="personality" value="Professional" />Professional
+    <input type="radio" name="personality" value="Dynamic" />Dynamic 
+    <input type="radio" name="personality" value="Other" />Other (Please specify)
+    <input type="text" name="personality_other" placeholder="Other">
+      
+    <br>
+
+    <label>What services do you think Micky Dynamics offers?</label>
+    <input type="checkbox" name="services[]" value="Web Design"> Web Design
+    <input type="checkbox" name="services[]" value="Software Development"> Software Development
+    <input type="checkbox" name="services[]" value="IT Consulting"> IT Consulting
+    <input type="checkbox" name="services[]" value="Other"> Other (please specify)
+    <input type="text" name="services_other" placeholder="Other">
+    <textarea></textarea>
+    <br>
+    <input type="Submit" id="submit">
+  </form>
+</body>
+</html>

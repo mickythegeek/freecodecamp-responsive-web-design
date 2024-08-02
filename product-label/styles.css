@@ -17,14 +17,20 @@ body {
   padding: 0 7px
 }
 
-h1{
+.bold{
   font-weight: 800;
-  text-align: center;
-  margin: -4px 0;
 }
 
-p{
+h1{
+  text-align: center;
+  margin: -4px 0;
+  letter-spacing: 0.15px;
+}
+
+p {
   margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .divider{

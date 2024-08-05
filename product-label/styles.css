@@ -132,18 +132,18 @@ p {
   margin: -7px -2px;
 }
 
-.medium{
-  height: 5px
+.medium {
+  height: 5px;
 }
 
-.right{
+.right {
   justify-content: flex-end;
 }
 
-.indent{
+.indent {
   margin-left: 1em;
 }
 
-.daily-value p{
+.daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }

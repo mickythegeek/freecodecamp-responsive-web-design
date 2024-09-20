@@ -17,7 +17,7 @@
       <h1>Strategy Quiz</h1>
       <nav>
         <ul>
-          <li><a href="#quiz-instructions">Instructions</a></li>
+          <li><a href="#user-info">User Information</a></li>
           <li><a href="#quiz-questions">Questions</a></li>
           <li><a href="#quiz-summary">Summary</a></li>
         </ul>
@@ -30,8 +30,20 @@
         method="POST"
         action="https://freecodecamp.org/practice-project/accessibility-quiz"
       >
-        <section role="region" aria-labelledby="quiz-instructions">
-          <h2 id="quiz-instructions">INSTRUCTIONS</h2>
+        <section role="region" aria-labelledby="user-info">
+          <h2 id="user-info">USER INFORMATION</h2>
+          <div class="user-info">
+            <label for="name">What should we call you, Player?</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div class="user-info">
+            <label for="email">How can we reach you, Kind Sir/Ma?</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="user-info">
+            <label for="dob">On what day did you decide to grace earth with your existence?</label>
+            <input type="date" id="dob" name="dob">
+          </div>
         </section>
         <section role="region" aria-labelledby="quiz-questions">
           <h2 id="quiz-questions">QUESTIONS</h2>

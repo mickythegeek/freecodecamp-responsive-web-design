@@ -17,9 +17,9 @@
       <h1>Strategy Quiz</h1>
       <nav>
         <ul>
-          <li><a>INFO</a></li>
-          <li><a>HTML</a></li>
-          <li><a>CSS</a></li>
+          <li><a href="#quiz-instructions">Instructions</a></li>
+          <li><a href="#quiz-questions">Questions</a></li>
+          <li><a href="#quiz-summary">Summary</a></li>
         </ul>
       </nav>
       <nav></nav>
@@ -30,9 +30,16 @@
         method="POST"
         action="https://freecodecamp.org/practice-project/accessibility-quiz"
       >
-        <section role="region"></section>
-        <section role="region"></section>
-        <section role="region"></section>
+        <section role="region" aria-labelledby="quiz-instructions">
+          <h2 id="quiz-instructions">INSTRUCTIONS</h2>
+        </section>
+        <section role="region" aria-labelledby="quiz-questions">
+          <h2 id="quiz-questions">QUESTIONS</h2>
+
+        </section>
+        <section role="region" aria-labelledby="quiz-summary">
+          <h2 id="quiz-summary">SUMMARY</h2>
+        </section>
       </form>
     </main>
   </body>

@@ -71,7 +71,7 @@ li > a {
   text-decoration: none;
 }
 
-section{
+section {
   width: 80%;
   margin-top: 0;
   margin-right: auto;
@@ -79,7 +79,6 @@ section{
   margin-left: auto;
   max-width: 600px;
 }
-
 
 h1,
 h2 {
@@ -90,7 +89,6 @@ h2 {
   border-bottom: 4px solid #dfdfe2;
   margin-top: 0;
   padding-top: 60px;
-
 }
 
 .sr-only {
@@ -105,14 +103,14 @@ h2 {
   border: 0;
 }
 
-.info{
+.info {
   padding-top: 1px;
   padding-right: 0;
   padding-bottom: 0;
   padding-left: 1px;
 }
 
-.formrow{
+.formrow {
   margin-top: 1px;
   margin-left: 1px;
   margin-right: 1px;
@@ -120,27 +118,40 @@ h2 {
   padding-right: 10px;
   padding-left: 1px;
   padding-bottom: 0;
-
 }
-input{
-  font-size: 14px; 
+input {
+  font-size: 14px;
 }
 
-.user-info > input, .user-info > label{
+.user-info > input,
+.user-info > label {
   width: 100%;
   text-align: left;
 }
-.user-info > input{
+.user-info > input {
   width: 100%;
   text-align: left;
 }
 
-.user-info label{
+.user-info label {
   width: 10%;
   min-width: 55px;
+}
+
+.question-block {
+  text-align: left;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+h3 {
+  margin-top: 5px;
+  padding-left: 15px;
+  font-size: 22px;
 }
 
 h3::before {
   content: "Question #";
 }
-

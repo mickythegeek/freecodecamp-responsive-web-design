@@ -19,11 +19,12 @@ body {
   border-radius: 46%;
 }
 
-.cat-left-ear{
+.cat-left-ear {
   position: absolute;
   top: -26px;
   left: -31px;
-  transform: rotate(-45deg);  
+  z-index: 1;
+  transform: rotate(-45deg);
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;
@@ -31,14 +32,24 @@ body {
   border-top-right-radius: 10px;
 }
 
-.cat-right-ear{
+.cat-right-ear {
   position: absolute;
   top: -26px;
   left: 163px;
+  z-index: 1;
   border-left: 35px solid transparent;
   border-right: 35px solid transparent;
   border-bottom: 70px solid #5e5e5e;
   transform: rotate(45deg);
   border-top-left-radius: 90px;
   border-top-right-radius: 10px;
+}
+
+.cat-left-inner-ear {
+  position: absolute;
+  top: 22px;
+  left: -20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
 }

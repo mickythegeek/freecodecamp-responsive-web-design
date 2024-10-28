@@ -70,9 +70,8 @@ body {
   border-top-right-radius: 10px;
 }
 
-
 /* CAT EYES */
-.cat-left-eye{
+.cat-left-eye {
   position: absolute;
   top: 54px;
   left: 39px;
@@ -83,7 +82,7 @@ body {
   background-color: #000;
 }
 
-.cat-right-eye{
+.cat-right-eye {
   position: absolute;
   top: 54px;
   left: 134px;
@@ -94,7 +93,7 @@ body {
   background-color: #000;
 }
 
-.cat-left-inner-eye{
+.cat-left-inner-eye {
   position: absolute;
   top: 8px;
   left: 2px;
@@ -105,7 +104,7 @@ body {
   border-radius: 60%;
 }
 
-.cat-right-inner-eye{
+.cat-right-inner-eye {
   position: absolute;
   top: 8px;
   left: 18px;
@@ -117,7 +116,7 @@ body {
 }
 
 /* CAT NOSE */
-.cat-nose{
+.cat-nose {
   position: absolute;
   top: 108px;
   left: 85px;
@@ -128,4 +127,10 @@ body {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 20px solid #442c2c;
+}
+
+.cat-mouth div {
+  width: 30px;
+  height: 50px;
+  border: 2px solid #000;
 }

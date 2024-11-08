@@ -17,7 +17,7 @@ html{
     background-color: #040404;
     width: 949px;
     height: 180px;
-    padding: 2px;
+    padding-left: 3px;
 }
 
 .key{
@@ -27,4 +27,13 @@ html{
     height: 175px;
     margin: 2px;
     float: left;
+}
+
+.key.black--key::after{
+    background-color: #1d1e22;
+    content: "";
+    position: absolute;
+    left: -18px;
+    width: 32px;
+    height: 100px;
 }

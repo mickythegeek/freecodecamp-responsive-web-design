@@ -18,6 +18,8 @@ body {
 .background-buildings {
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
@@ -70,8 +72,6 @@ body {
 .foreground-buildings{
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;

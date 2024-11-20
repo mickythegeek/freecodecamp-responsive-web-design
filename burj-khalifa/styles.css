@@ -177,6 +177,9 @@ body {
 
 .fb2a{
   width: 100%;
+  border-bottom: 10vh solid var(--building-color3);
+  border-left: 1vw solid transparent;
+  border-right: 1vw solid transparent;
 }
 
 .fb2b{
@@ -195,6 +198,16 @@ body {
   width: 10%;
   height: 35%;
   background-color: var(--building-color1);
+}
+
+.fb3a{
+  width: 80%;
+  height: 15%;
+}
+
+.fb3b{
+  width: 100%;
+  height: 35% ;
 }
 
 .fb4 {

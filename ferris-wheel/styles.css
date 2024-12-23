@@ -69,3 +69,8 @@
     top: 7%;
 }
 
+@keyframes wheel {
+    0%{
+        color: green;
+    }
+}

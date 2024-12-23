@@ -20,8 +20,9 @@ body{
 .back-mountain{
     width: 300px;
     height: 300px;
-    background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255 ))
-  }
+    background: linear-gradient(rgb(203, 241, 228), rgb(47, 170, 255 ));
+    position: absolute;
+}
 
 .penguin{
     width: 300px;

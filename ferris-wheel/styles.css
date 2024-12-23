@@ -5,4 +5,12 @@
     position: absolute;
     height: 55vw;
     width: 55vw;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.line{
+    background-color: black;
+    width: 50%;
+    height: 2px;
 }

@@ -8,7 +8,9 @@
     max-height: 500px;
     max-width: 500px;
     animation-name: wheel;
-    animation-duration: 160s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .line{

@@ -43,6 +43,7 @@ body{
     height: 300px;
     margin: auto;
     margin-top: 75px;
+    z-index: 4;
 }
 .ground {
     width: 100vw;

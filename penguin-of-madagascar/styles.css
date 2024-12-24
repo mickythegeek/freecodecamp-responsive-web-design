@@ -85,6 +85,11 @@ body{
     border-radius: 70% 70% 100% 100%;
 }
 
+.eye{
+    width: 15%;
+    height: 17%;
+    background-color: black;
+}
 
 .penguin-body{
     width: 53%;

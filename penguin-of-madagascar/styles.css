@@ -66,6 +66,11 @@ body{
     left: 23.5%;
 }
 
+.penguin-body::before{
+    content: "";
+}
+
+
 .penguin *{
     position: absolute;
 }
